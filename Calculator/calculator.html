@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- İnput Yeri -->
+        <div class="input">
+            <tr>
+                <button id="display" style="display: inline; height: 100px; width: 500px; text-align: right; font-size: 50px; padding-right: 20px; background-color: #483E3E; color: white;">0</button>
+
+            </tr>
+        </div>
+
+        <!-- Tuşların yeri -->
+        <div id="push-button-console">
+            <label for="btn">
+            <button class="btn" style="color: rgb(229, 60, 14);" value="" id="clear">Clear</button>
+            <button class="btn operator" value="sqrt"><i class="fa-solid fa-square-root-variable"></i></button>
+            <button class="btn operator" value="" id="delete"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="btn operator" value="/"><i class="fa-solid fa-divide"></i></button>
+            <button class="btn num" id="seven" value="7">7</button>
+            <button class="btn num" id="eight" value="8">8</button>
+            <button class="btn num" id="nine" value="9">9</button>
+            <button class="btn operator" value="*"><i class="fa-solid fa-xmark"></i></button>
+            <button class="btn num" id="four" value="4">4</button>
+            <button class="btn num" id="five" value="5">5</button>
+            <button class="btn num" id="six" value="6">6</button>
+            <button class="btn operator" value="-"><i class="fa-solid fa-minus"></i></button>
+            <button class="btn num" id="one" value="1">1</button>
+            <button class="btn num" id="two" value="2">2</button>
+            <button class="btn num" id="three" value="3">3</button>
+            <button class="btn operator" value="+"><i class="fa-solid fa-plus"></i></button>
+            <button class="btn" value="."><strong>.</strong></button>
+            <button class="btn num" id="zero" value="0">0</button>
+            <button class="btn operator" value="%"><i class="fa-solid fa-percent"></i></button>
+            <button class="btn operator" value="=" id="equal"><i class="fa-solid fa-equals"></i></button>            
+        </label>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="calculator.js"></script>
+</body>
+</html>
